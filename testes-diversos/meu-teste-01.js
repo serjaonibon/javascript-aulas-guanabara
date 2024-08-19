@@ -12,5 +12,4 @@ alert(`O elemento ${vlr} está alocado no índice ${posi}`)
 let num = [2, 1, 7 , 9, 3, 8]
 alert(`O seu ARRAY possui os seguintes elementos: -> ${num}`)
 let vlr = prompt("Informe o valor que deseja saber o índice: ")
-
 alert(`O valor ${Number(vlr)} está na posição ${num.indexOf(Number(vlr))}`)
